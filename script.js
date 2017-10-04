@@ -15,7 +15,7 @@ $(document).ready(function() {
 
         } if(audio.currentTime < 10) {
             var minutes = 0;
-            var seconds = "0" + Math.round(audio.currentTime);
+            var seconds = "0" + Math.floor(audio.currentTime);
         } else {
             var minutes = 0;
             var seconds = Math.round(audio.currentTime);
